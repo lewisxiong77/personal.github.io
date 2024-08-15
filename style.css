@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(ROCK.TTF);
+}
+
+a{
+  text-decoration: none;
+  font-family: myFirstFont;
+  color: black;
+}
+
+a:hover {
+  color: #6A8EBF;
+}
+
+.everything {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('Rectangle\ 1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.left {
+  padding-top: 60px;
+}
+
+@media only screen and (min-width: 1000px){
+  #shape{
+    width: 600px;
+    left:830px;
+    top:170px;
+    position:relative;
+    z-index: 0;
+  }
+  
+  #pfp {
+    width: 550px;
+    left:850px;
+    top:98px;
+    position:absolute;
+    z-index: 0;
+  }
+  }
+
+@media only screen and (max-width: 1000px){
+#shape{
+  left:0px;
+  top:0px;
+  position:relative;
+  z-index: 0;
+}
+
+#pfp {
+  left:0px;
+  top:0px;
+  position:absolute;
+  z-index: 0;
+}
+}
+#nav {
+  width: 100%;
+  height: 75px;
+  left: 0px;
+  position: fixed;
+  right: 0px;
+  z-index: 1;
+}
+
+
+#name {
+  width: 65%;
+  left: 100px;
+  top: 200px;
+  position:absolute;
+}
+
+#des {
+  top: 330px;
+  left: 100px;
+  position: absolute;
+}
+
+#greet {
+  top: 150px;
+  left: 100px;
+  position:absolute;
+}
+#homer {
+  top: 20px;
+  left: 100px;
+  position: fixed;
+  right: 0px;
+  z-index: 2;
+}
+
+#homer2 {
+  font-size: 20px;
+  top:23px;
+  left: 140px;
+  position: fixed;
+  z-index: 2;
+}
+
+.cater {
+  position:fixed;
+  top: 27.5px;
+  left: 1000px;
+  z-index: 2;
+}
+
+#gallery {
+  padding-left: 20px;
+}
+
+#contact {
+  padding-left: 20px;
+}
+
+#p {
+  width: 1000px;
+  padding-top: 250px;
+  margin-left: 50px;
+}
+
+#pic {
+  top: 800px;
+  right: 100px;
+  position: absolute;
+  width: 400px;
+}
