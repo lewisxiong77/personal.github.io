@@ -32,11 +32,11 @@ h1 { font-size: clamp(2.5rem, 7vw, 6rem); line-height: 1.1; margin: 0.5rem 0 1.5
 .portrait img { grid-area: 1 / 1; width: 100%; }
 .gallery { padding: 3rem 0; }
 .gallery h2 { font-size: 2rem; }
-.gallery-images { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; }
+.gallery-images { max-width: 700px; margin: auto; }
 .gallery-images img { width: 100%; }
 footer { padding: 2rem; text-align: center; background: white; }
 @media (max-width: 700px) {
-  .hero, .gallery-images { grid-template-columns: 1fr; }
+  .hero { grid-template-columns: 1fr; }
   .hero { min-height: auto; padding-top: 2rem; }
   nav ul { gap: 1rem; }
 }
