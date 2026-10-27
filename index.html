@@ -1,36 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>
-      Profolio
-    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Lewis Xiong's early web design portfolio, built with HTML and CSS.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portfolio Website | Original Design</title>
   </head>
-    <body>
-      <div class="everything">
-        <div class="nav">
-          <img src="Rectangle 2.png" id="nav">
-            <div class="content">
-              <div class="home">
-              <img src="home.png" id="homer">
-              <a href="index.html" id="homer2">Home</a>
-              
-              </div>
-              <div class="cater">
-                <a href="about.html" id="about">About</a>
-                <a href="gallery.html" id="gallery">Gallery</a>
-                <a href="contact.html" id="contact">Contact</a>
-              </div>
-            </div>
-      </div>
-      <img src="shap.png" id="shape">
-      <img src="Lewis Xiong.png" class='left' id="name">
-      <img src="lewis.png" id="pfp">
-      <img src="Greetings, I'm.png" class='left' id="greet">
-      <img src="Website DesignerTennis Player.png" class='left' id="des">
-      <img src="s.png" id="p">
-      <img src="cardozo.jpg" id="pic">
-      </div>
-    </body>
+  <body>
+    <div class="everything">
+      <header>
+        <div class="logo">
+          <img src="assets/images/home-icon.png" alt="">
+          <a href="index.html" aria-current="page">Home</a>
+        </div>
+        <nav aria-label="Main navigation">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="hero" id="about" aria-labelledby="name">
+          <div>
+            <p class="intro">Greetings, I'm</p>
+            <h1 id="name">Lewis Xiong</h1>
+            <p class="interests">Web Designer</p>
+            <p class="interests">Tennis Player</p>
+          </div>
+          <div class="portrait hero-art">
+            <img src="assets/images/portrait-shape.png" alt="">
+            <img src="assets/images/lewis-portrait.png" alt="Lewis Xiong">
+          </div>
+        </section>
+        <section class="gallery" id="gallery" aria-labelledby="gallery-title">
+          <h2 id="gallery-title">Gallery</h2>
+          <div class="gallery-images">
+            <img src="assets/images/cardozo-high-school.jpg" alt="Benjamin N. Cardozo High School" loading="lazy">
+          </div>
+        </section>
+      </main>
+      <footer id="contact">
+        <p>Find Lewis on <a href="https://github.com/lewisxiong77">GitHub</a>.</p>
+      </footer>
+    </div>
+  </body>
 </html>
